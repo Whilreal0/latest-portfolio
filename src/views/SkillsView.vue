@@ -22,7 +22,7 @@
             shadow-custom-sm
             border-[1px] border-solid border-black
             py-2
-            px-5
+            
           "
         >
           CSS
@@ -34,7 +34,7 @@
             border-[1px] border-solid border-black
             col-span-2
             py-2
-            px-5
+            
             mx-14
           "
         >
@@ -68,7 +68,7 @@
             border-[1px] border-solid border-black
             col-span-2
             py-2
-            px-5
+            
             mx-14
           "
         >
@@ -79,7 +79,7 @@
             shadow-custom-sm
             border-[1px] border-solid border-black
             py-2
-            px-5
+           
           "
         >
           Bootstrap
@@ -89,7 +89,7 @@
             shadow-custom-sm
             border-[1px] border-solid border-black
             py-2
-            px-5
+            
           "
         >
           Wordpress

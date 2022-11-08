@@ -15,13 +15,13 @@
       opportunities that will help me grow and enhance my skills, especially on
       building profitable responsive websites and web applications.
     </p>
-    <div class="mb-[10rem]">
+    <div class="mb-[10rem] flex gap-5">
       <button
         class="
           px-5
           py-2
           border-blue-500 border-solid border-2
-          mr-4
+          
           relative
           bg-transparent
           font-medium
@@ -45,12 +45,12 @@
         "
         @click="scroll('contact')"
       >
-        Get In Touch
+        Get In TITI
       </button>
       <button class=" px-5
           py-2
           border-blue-500 border-solid border-2
-          mr-4
+          
           relative
           bg-transparent
           font-medium

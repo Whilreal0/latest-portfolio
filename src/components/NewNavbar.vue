@@ -139,7 +139,20 @@
       </div>
     </div>
     <!-- mobile nav -->
-    <div class="md:hidden transition duration-100 ease-in" v-show="isOpen">
+    <div
+      class="
+        md:hidden
+        absolute
+        bg-white
+        left-2
+        right-0
+        my-2
+        transition
+        duration-100
+        ease-in
+      "
+      v-show="isOpen"
+    >
       <button
         class="
           block
@@ -150,6 +163,8 @@
           transition-colors
           duration-300
           ease-in-out
+          text-lg
+          font-semibold
           hover:text-blue-800 hover:scale-x-100
           before:content-['']
           before:absolute
@@ -180,6 +195,8 @@
           transition-colors
           duration-300
           ease-in-out
+          text-lg
+          font-semibold
           hover:text-blue-800 hover:scale-x-100
           before:content-['']
           before:absolute
@@ -210,6 +227,8 @@
           transition-colors
           duration-300
           ease-in-out
+          text-lg
+          font-semibold
           hover:text-blue-800 hover:scale-x-100
           before:content-['']
           before:absolute

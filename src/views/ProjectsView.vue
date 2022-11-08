@@ -35,9 +35,9 @@
           <li>{{ info.stack[2] }}</li>
         </ul>
         <div class="flex gap-2 text-xl">
-          <span>
+          <span >
             <a
-              href=""
+              :href="info.link"
               class="
                 relative
                 hover:text-blue-800
@@ -64,7 +64,7 @@
           </span>
           <span>
             <a
-              href=""
+              :href="info.sitelink"
               class="
                 relative
                 hover:text-blue-800
@@ -104,6 +104,8 @@ export default {
           "a responsive photography portfolio for a freelance photographer in the Philippines.",
         stack: ["VueJs2", "TailwindCSS"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
+        codelink : '#',
+        sitelink : 'https://j-creations.netlify.app/'
       },
       {
         title: "Castra Gears",
@@ -111,6 +113,8 @@ export default {
           "a responsive eCommerce site",
         stack: ["Wordpress"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
+        codelink : '#',
+        sitelink : 'https://dev-castra-gears.pantheonsite.io/'
       },
       {
         title: "Simple To Do list",
@@ -118,6 +122,8 @@ export default {
           "a simple responsive To Do List app",
         stack: ["VueJs2, Vuetify"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
+        codelink : '#',
+        sitelink : '#'
       },
       {
         title: "Weather App",
@@ -125,6 +131,8 @@ export default {
           "a simple Weather App",
         stack: ["VueJs2, OpenWeatherAPI, Vuetify"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
+        codelink : '#',
+        sitelink : 'https://mer-weather-app.netlify.app/'
       },
       {
         title: "Thesis Title Generator",
@@ -132,6 +140,8 @@ export default {
           "To Generate A title for you",
         stack: ["VueJs2, Vuetify"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
+        codelink : '#',
+        sitelink : '#'
       },
     ],
     
