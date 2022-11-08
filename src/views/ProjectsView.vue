@@ -37,7 +37,7 @@
         <div class="flex gap-2 text-xl">
           <span >
             <a
-              :href="info.link"
+              :href="info.codelink"
               class="
                 relative
                 hover:text-blue-800

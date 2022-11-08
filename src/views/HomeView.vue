@@ -45,7 +45,7 @@
         "
         @click="scroll('contact')"
       >
-        Get In TITI
+        Get In Touch
       </button>
       <button class=" px-5
           py-2
