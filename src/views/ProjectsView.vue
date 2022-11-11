@@ -143,6 +143,15 @@ export default {
         codelink : '#',
         sitelink : '#'
       },
+      {
+        title: "Shortly Landing Page",
+        description:
+          "This is a Challenge in Front-end Mentor",
+        stack: ["VueJs2, TailwindCSS"],
+        icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
+        codelink : '#',
+        sitelink : 'https://shortly-mer-landing-page.netlify.app/'
+      },
     ],
     
   }),

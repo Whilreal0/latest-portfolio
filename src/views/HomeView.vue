@@ -76,7 +76,7 @@
           
         
           <a 
-          href="./public/WhilmerRealigueResume.pdf"
+          href="\WhilmerRealigueResume.pdf" target="blank"
    download>
             Resume
           </a>
