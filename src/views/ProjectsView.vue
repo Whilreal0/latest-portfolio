@@ -1,5 +1,5 @@
 <template>
-  <section class=" relative bg-[#fefefe] py-7" id="projects">
+  <section class="relative bg-[#fefefe] py-7" id="projects">
     <h1 class="text-center font-bold text-3xl mb-10">PROJECTS</h1>
     <div
       class="
@@ -29,13 +29,23 @@
       >
         <h2 class="font-bold text-xl">{{ info.title }}</h2>
         <p class="m-[4px]">{{ info.description }}</p>
-        <ul class="inline-flex gap-2 text-center w-full justify-center py-5 text-lg">
+        <ul
+          class="
+            inline-flex
+            gap-2
+            text-center
+            w-full
+            justify-center
+            py-5
+            text-lg
+          "
+        >
           <li>{{ info.stack[0] }}</li>
           <li>{{ info.stack[1] }}</li>
           <li>{{ info.stack[2] }}</li>
         </ul>
         <div class="flex gap-2 text-xl">
-          <span >
+          <span>
             <a
               :href="info.codelink"
               class="
@@ -104,56 +114,66 @@ export default {
           "a responsive photography portfolio for a freelance photographer in the Philippines.",
         stack: ["VueJs2", "TailwindCSS"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
-        codelink : '#',
-        sitelink : 'https://j-creations.netlify.app/'
+        codelink: "#",
+        sitelink: "https://j-creations.netlify.app/",
       },
       {
         title: "Castra Gears",
-        description:
-          "a responsive eCommerce site",
+        description: "a responsive eCommerce site",
         stack: ["Wordpress"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
-        codelink : '#',
-        sitelink : 'https://dev-castra-gears.pantheonsite.io/'
+        codelink: "#",
+        sitelink: "https://dev-castra-gears.pantheonsite.io/",
       },
       {
         title: "Simple To Do list",
-        description:
-          "a simple responsive To Do List app",
+        description: "a simple responsive To Do List app",
         stack: ["VueJs2, Vuetify"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
-        codelink : '#',
-        sitelink : '#'
+        codelink: "#",
+        sitelink: "#",
       },
       {
         title: "Weather App",
-        description:
-          "a simple Weather App",
+        description: "a simple Weather App",
         stack: ["VueJs2, OpenWeatherAPI, Vuetify"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
-        codelink : '#',
-        sitelink : 'https://mer-weather-app.netlify.app/'
+        codelink: "#",
+        sitelink: "https://mer-weather-app.netlify.app/",
       },
       {
         title: "Thesis Title Generator",
-        description:
-          "To Generate A title for you",
+        description: "To Generate A title for you",
         stack: ["VueJs2, Vuetify"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
-        codelink : '#',
-        sitelink : '#'
+        codelink: "#",
+        sitelink: "#",
       },
       {
         title: "Shortly Landing Page",
-        description:
-          "This is a Challenge in Front-end Mentor",
+        description: "This is a Challenge in Front-end Mentor",
         stack: ["VueJs2, TailwindCSS"],
         icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
-        codelink : '#',
-        sitelink : 'https://shortly-mer-landing-page.netlify.app/'
+        codelink: "#",
+        sitelink: "https://shortly-mer-landing-page.netlify.app/",
+      },
+      {
+        title: "Ph Covid-19 Tracker",
+        description: "A simple Covid Tracker Using API",
+        stack: ["VueJs2, TailwindCSS, API"],
+        icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
+        codelink: "#",
+        sitelink: "https://whilmer-c-19-tracker-app.netlify.app/",
+      },
+      {
+        title: "Coffee Landing Page",
+        description: "A Responsive Landing Page",
+        stack: ["VueJs2, TailwindCSS, "],
+        icon: ["fa-brands fa-github", "fa-solid fa-up-right-from-square"],
+        codelink: "#",
+        sitelink: "https://49d674ae.coffee-4rk.pages.dev/",
       },
     ],
-    
   }),
 };
 </script>
